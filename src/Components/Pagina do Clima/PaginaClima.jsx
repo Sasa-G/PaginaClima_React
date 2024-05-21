@@ -22,7 +22,7 @@ import { useState } from 'react';
             const element =document.getElementsByClassName("cityInput");
             if(element[0].value==="")
                 {
-                    return 0;git init
+                    return 0;
                 }
 
                 let url =`https://api.openweathermap.org/data/2.5/weather?q=${element[0].value}&units=Metric&appid=${api_key}`;
